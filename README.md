@@ -6,7 +6,7 @@
 
 
 ```sh
-~/Desktop/Master Robotica/integracion_robotica$ catkin_create_pkg project_uvic_ac std_msgs rospy roscpp
+~/catkin_ws/src$ catkin_create_pkg project_uvic_ac std_msgs rospy roscpp
 ```
 
 2- Customize the “package.xml” file:
