@@ -1,0 +1,10 @@
+
+<launch> 
+
+	<param name="yaml_cfg_file" value="$(find project_uvic_ac)/config/param.yalm" />
+
+	<node type="rviz" name="rviz" pkg="rviz" />
+
+	<include file="$(find usb_cam)/launch/usb_cam-test.launch"/>
+	
+</launch>
